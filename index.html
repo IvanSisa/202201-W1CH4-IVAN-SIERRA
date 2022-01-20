@@ -10,37 +10,49 @@
 <body>
     <div class="shop-list">
         <header>
-            <h1></h1>
+            <h1>Lista de la compra</h1>
             <ul>
                 <li>Principal</li>
-                <li>Lista</li>
+                <li><b>Lista</b></li>
                 <li>acerca de</li>
             </ul>
         </header>
-        <div>
-            <ul>
-                <li>MAS</li>
-                <li>2/3 comprados</li>
-            </ul>
-        </div>
-        <div class="list-products">
-            <div class="produts">
-                <ul>
-                    <li><input type="checkbox"><span class="crossed">Pan</span></li>
-                    <li><input type="checkbox"><span class="no-crossed">Azucar</span></li>
-                    <li><input type="checkbox"><span class="crossed">Leche</span></li>
-                </ul>
+        <section class="second-colour">
+            <div class="page">
+                    <ul>
+                        <li><img src="plus.png"></li>
+                        <li>2/3 comprados</li>
+                    </ul>
             </div>
-            <div class="prices">
-                <ul>
-                    <li>0.75€ <span class="cross">×</span></li>
-                    <li><span class="cross">×</span></li>
-                    <li>1.20€<span class="cross">×</span></li>
-                </ul>
+        </section>
+        <section class="third-colour">    
+            <div class="list-products">
+                <div class="products">
+                    <form>
+                        <ul>
+                            <li><input class="check" type="checkbox"><span class="crossed">Pan</span></li>
+                            <li><input class="check" type="checkbox"><span class="no-crossed">Azucar</span></li>
+                            <li><input class="check" type="checkbox"><span class="crossed">Leche</span></li>
+                        </ul>
+                    </form>
+                </div>
+                <div class="prices">
+                    <ul>
+                        <li>0.75€ </li>
+                        <li>&nbsp; </li>
+                        <li>1.20€ </li>
+                    </ul>
+                    <ul>
+                        <li><span class="cross"><img src="cerrar.png"></span></li>
+                        <li><span class="cross"><img src="cerrar.png"></span></li>
+                        <li><span class="cross"><img src="cerrar.png"></span></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-        <!-- Raya aqui -->
-        <div class="price-total">1.95€</div>
-    </div>    
+            <div class="line"></div>
+            <!-- Raya aqui -->
+            <div class="price-total">1.95€</div>
+        </div> 
+    </section>   
 </body>
 </html>
