@@ -6,7 +6,7 @@
 }
 .shop-list{
     width: 50%;
-    margin: 200px auto;
+    margin: 150px auto;
     height: 1000px;
 }
 header{
@@ -95,9 +95,7 @@ header{
 }
 .line{
     border-bottom: #dbba9c solid 2px;
-    
     max-width: 90%;
-    
     margin: 0 auto;
 }
 .price-total{
@@ -108,4 +106,42 @@ header{
     justify-content: flex-end;
     margin-right: 30px;
     margin-top: 30px;
+}
+
+/*  SEGUNDA HOJA  */
+.list-articles{
+    height: 700px;
+    h2{
+        padding-top: 55px;
+        margin-left: 20px;
+        font-size: 35px;
+    }
+    .block{
+        display: block;
+        margin-bottom: 15px;
+    }
+    .form{
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 27px;
+        div{
+            display: flex;
+            p{
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+        }
+        button{
+            height: 70px;
+            background-color: #5e81d1;
+            color: white;
+            width: 160px;
+            font-size: 28px;
+            border: 0;
+        }
+    }
+    .text{
+        height: 70px;
+        width: 350px;
+    }
 }
